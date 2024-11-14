@@ -36,7 +36,7 @@
             <h5 class="card-title">{{ contact.lastname }} {{ contact.firstname }}</h5>
             <div class="card-text">
               <p>
-                <strong>Alias:</strong> {{ contact.alias }} - {{ contact.gender }}<br>
+                <strong>{{ contact.alias }}</strong> - {{ contact.gender }}<br>
                 <strong>Profession:</strong> {{ contact.profession }} - <strong>Style:</strong> {{ contact.style }}<br>
                 <strong>Phone:</strong>
                 <a :href="'tel:' + contact.phone">{{ contact.phone }}</a><br>
